@@ -74,10 +74,3 @@ $.ui.plugin.add("resizable", "alsoResizeReverse", {
     $(this).removeData("resizable-alsoResizeReverse");
   }
 });
-$(function() {
-
-  $("#resizable").resizable({
-    alsoResizeReverse: ".myframe"
-  });
-
-});
